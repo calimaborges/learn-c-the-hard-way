@@ -1,5 +1,8 @@
 CFLAGS=-Wall -g
+build:
+	cc -c -o ex022.o ex022.c
+	cc main.c ex022.o -o main
 clean:
-	rm -rf ex020
+	rm -rf ex022.o main
 test:
-	./ex020 1 5 6 90 3 2 4 1
+	./main

@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "ex022.h"
 #include "dbg.h"
 
